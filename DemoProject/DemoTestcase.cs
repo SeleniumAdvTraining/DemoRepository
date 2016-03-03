@@ -7,9 +7,11 @@ namespace DemoProject
     public class DemoTestcase
     {
         [TestMethod]
-        public void Member1Member2_TestMethod()
+        public void Greeting_Testcase()
         {
             Console.WriteLine("Hello Member 2!");
+            Console.WriteLine("How are you?");
+            Console.WriteLine("I am Member 1");
 
             Console.WriteLine("Hello Member 1!");
             Console.WriteLine("How are you?");
